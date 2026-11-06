@@ -1,0 +1,35 @@
+{
+    "name": "youvision/think-jwt",
+    "description": "基于firebase php-jwt 6.10的ThinkPHP 8.0+ Jwt 验证",
+    "keywords": [
+        "auth",
+        "authentication",
+        "php-jwt",
+        "jwt",
+        "thinkphp"
+    ],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "youvision",
+            "email": "youvisionfy@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2.0",
+        "topthink/framework": "^8.0.0",
+        "firebase/php-jwt": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\": "src/"
+        }
+    },
+    "extra": {
+        "think": {
+            "config": {
+                "jwt": "config/config.php"
+            }
+        }
+    }
+}
