@@ -11,8 +11,12 @@
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "youvision",
-            "email": "youvisionfy@163.com"
+            "name": "indiboy-create",
+            "homepage": "https://github.com/indiboy-create"
+        },
+        {
+            "name": "AI",
+            "role": "Developer"
         }
     ],
     "require": {
